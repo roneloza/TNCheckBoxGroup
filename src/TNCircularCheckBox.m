@@ -72,6 +72,9 @@
 
 #pragma mark - Animations
 - (void)checkWithAnimation:(BOOL)animated {
+    
+    self.border.strokeColor = (self.data.checked ? self.data.borderColor.CGColor : self.data.borderOffColor.CGColor);
+    
     NSNumber *scaleValue = (self.data.checked) ? @1 : @0;
     
     if( animated ){

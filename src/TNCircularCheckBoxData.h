@@ -11,6 +11,7 @@
 @interface TNCircularCheckBoxData : TNCheckBoxData
 
 @property (nonatomic, strong) UIColor *borderColor;
+@property (nonatomic, strong) UIColor *borderOffColor;
 @property (nonatomic, strong) UIColor *circleColor;
 
 @property (nonatomic) NSInteger borderRadius;

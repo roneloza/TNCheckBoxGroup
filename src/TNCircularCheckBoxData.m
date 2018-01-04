@@ -11,6 +11,16 @@
 @implementation TNCircularCheckBoxData
 
 #pragma mark - Getters and setters
+
+- (UIColor *)borderOffColor {
+    
+    if( !_borderOffColor ){
+        _borderOffColor = [UIColor blackColor];
+    }
+    
+    return _borderOffColor;
+}
+
 - (UIColor *)borderColor {
     
     if( !_borderColor ){

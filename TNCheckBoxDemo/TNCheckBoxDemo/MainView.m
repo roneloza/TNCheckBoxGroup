@@ -34,6 +34,8 @@
     bananaData.identifier = @"banana";
     bananaData.labelText = @"Banana";
     bananaData.checked = YES;
+    
+    bananaData.borderOffColor = [UIColor lightGrayColor];
     bananaData.borderColor = [UIColor blackColor];
     bananaData.circleColor = [UIColor blackColor];
     bananaData.borderRadius = 20;
@@ -43,6 +45,7 @@
     strawberryData.identifier = @"apple";
     strawberryData.checked = YES;
     strawberryData.labelText = @"Apple";
+    strawberryData.borderOffColor = [UIColor lightGrayColor];
     strawberryData.borderColor = [UIColor blackColor];
     strawberryData.circleColor = [UIColor blackColor];
     strawberryData.borderRadius = 20;
@@ -51,6 +54,7 @@
     TNCircularCheckBoxData *cherryData = [[TNCircularCheckBoxData alloc] init];
     cherryData.identifier = @"cherry";
     cherryData.labelText = @"Cherry";
+    cherryData.borderOffColor = [UIColor lightGrayColor];
     cherryData.borderColor = [UIColor blackColor];
     cherryData.circleColor = [UIColor blackColor];
     cherryData.borderRadius = 20;
@@ -59,6 +63,7 @@
     TNCircularCheckBoxData *orangeData = [[TNCircularCheckBoxData alloc] init];
     orangeData.identifier = @"orange";
     orangeData.labelText = @"Orange";
+    orangeData.borderOffColor = [UIColor lightGrayColor];
     orangeData.borderColor = [UIColor blackColor];
     orangeData.circleColor = [UIColor blackColor];
     orangeData.borderRadius = 20;
